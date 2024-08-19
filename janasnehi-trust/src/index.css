@@ -1,0 +1,123 @@
+* {
+  body {
+    font-family: 'Montserrat';
+  }
+  
+}
+body {
+  background-color: beige;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.html {
+  scroll-behavior: smooth;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 480px) {
+  body {
+    font-size: 0px;
+  }
+  
+
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .header {
+    padding: 10px;
+  }
+
+  .footer {
+    padding: 10px;
+  }
+
+  .navLinks {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (min-width: 769px) {
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+
+  .footer {
+    background: linear-gradient(135deg, #000000, #434343);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .navLinks {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .navLinks a {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #09d910;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+
+  .navLinks a:hover {
+    background-color: #087b06;
+  }
+}
+
+.app {
+  text-align: center;
+}
+
+.main {
+  padding: 20px;
+}
+
+.home {
+  animation: fadeIn 1s ease-in;
+  padding: 30px 10px;
+}
+
+.featureList li {
+  font-size: 16px;
+}
+
+.actionButton {
+  font-size: 16px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+html {
+  line-height: 1.5; 
+}

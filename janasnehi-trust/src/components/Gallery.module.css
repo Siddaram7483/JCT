@@ -1,0 +1,111 @@
+/* Gallery.module.css */
+
+.gallery {
+  padding: 100px 20px;
+  background: linear-gradient(to right, #d1c1c4, #07ea16); /* Gradient background */
+  color: #ffffff; /* Text color */
+  text-align: center;
+}
+
+.galleryHeader {
+  margin-bottom: 40px;
+}
+
+.gallery h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #0a12ab; /* Heading text color */
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 4px solid #ffffff; /* Heading underline */
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.gallery p {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  margin-bottom: 40px;
+  color: black;
+}
+
+.todayEvents {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.event {
+  max-width: 300px;
+  padding: 20px;
+  background-color: rgba(199, 37, 37, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.event:hover {
+  transform: translateY(-5px);
+}
+
+.event h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #961515; /* Event title color */
+  margin-bottom: 10px;
+}
+
+.event p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #cc1a2f; /* Event description color */
+}
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.imageContainer {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(192, 212, 13, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.imageContainer:hover {
+  transform: translateY(-5px);
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.image:hover {
+  transform: scale(1.05);
+}
+
+.addButton {
+  background-color: #ffffff; /* Button background color */
+  color: #b613b6; /* Button text color */
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 40px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.addButton:hover {
+  background-color: #4b0221; /* Button hover background color */
+  transform: translateY(-3px);
+}

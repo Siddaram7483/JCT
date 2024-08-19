@@ -1,0 +1,331 @@
+/* Global Styles */
+
+
+/* Navbar */
+.navbar {
+  background-color: #1c9b8c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.625rem 0; /* 10px padding */
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.625rem 1.25rem; /* 10px 20px padding */
+  margin: 0 0.625rem; /* 10px margin */
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #c2cb0f;
+}
+
+.logoimage {
+  max-width: 60px;
+}
+
+/* Hero Image */
+.Hero {
+  width: 100%;
+  display: block;
+}
+
+/* Who We Are Section */
+.AboutUsContainer {
+  margin: 3.125rem 5rem; /* 50px 80px margin */
+  display: flex;
+  align-items: flex-start; /* Align items to the top for better readability */
+  gap: 2rem; /* Gap between text and image */
+}
+
+.AboutUsText {
+  flex: 1;
+  padding-right: 1.25rem; /* 20px padding */
+  font-family: Montserrat, sans-serif;
+  font-size: 2rem; /* 32px font size */
+  font-weight: 600;
+  line-height: 3rem; /* 48px line height */
+}
+
+.AboutUsText p {
+  text-align: justify;
+  font-size: 1rem; /* 16px font size */
+  line-height: 1.6; /* Improved line height for readability */
+}
+
+.AboutUsImage {
+  flex: 1; /* Ensure image container takes equal space */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center image within its container */
+}
+
+.AboutUs {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Our Vision Section */
+.OurVisionContainer {
+  margin: 3.125rem 5rem; /* 50px 80px margin */
+  display: flex;
+  align-items: flex-start; /* Align items to the top for better readability */
+  gap: 2rem; /* Gap between text and image */
+}
+
+.OurVisionText {
+  flex: 1;
+  padding-right: 1.25rem; /* 20px padding */
+  font-family: Montserrat, sans-serif;
+  font-size: 2rem; /* 32px font size */
+  font-weight: 600;
+  line-height: 3rem; /* 48px line height */
+}
+
+.OurVisionText p {
+  font-size: 1rem; /* 16px font size */
+  line-height: 1.6; /* Improved line height for readability */
+}
+
+.OurVisionImage {
+  flex: 1; /* Ensure image container takes equal space */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center image within its container */
+}
+
+h1 {
+  color: #1c9b8c;
+  font-weight: bolder;
+  text-align: center;
+  margin: 1.875rem 0; /* 30px margin */
+}
+
+/* Support Us Section */
+.supportUs {
+  display: flex;
+  justify-content: center;
+  gap: 3.75rem; /* 60px gap */
+  flex-wrap: wrap; /* Ensure items wrap on smaller screens */
+  margin: 2.5rem 0; /* 40px margin */
+}
+
+.supportUs div {
+  text-align: center;
+}
+
+.supportUs p {
+  font-weight: bold;
+  margin-bottom: 0.3125rem; /* 5px margin */
+}
+
+.supportUs img {
+  width: 100%;
+  height: auto;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.supportImage {
+  animation: rotate 10s linear infinite; /* Adjust duration as needed */
+}
+h3 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding-bottom: 18px;
+  color: #333;
+  /* background-color:#f0f0f0; */
+}
+
+/* Latest News Section */
+.LatestNewsContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.25rem; /* 20px gap */
+  margin: 1.25rem 0; /* 20px margin */
+}
+
+.LatestNewsItem {
+  flex: 1;
+  min-width: 300px; /* Minimum width to maintain layout */
+  padding: 1.25rem; /* 20px padding */
+  border: 1px solid #ccc;
+  border-radius: 0.3125rem; /* 5px border radius */
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin-bottom: 1.25rem; /* 20px margin */
+}
+
+.LatestNewsImage {
+  width: 100%;
+  border-radius: 0.3125rem; /* 5px border radius */
+}
+
+.ReadMore {
+  color: #007bff;
+  cursor: pointer;
+  display: block;
+  margin-top: 0.625rem; /* 10px margin */
+}
+
+.ReadLess {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 0.3125rem 0.625rem; /* 5px 10px padding */
+  border-radius: 0.3125rem; /* 5px border radius */
+  cursor: pointer;
+  align-self: center; /* Center button horizontally */
+}
+
+/* Activities Section */
+.ActivitiesContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.25rem; /* 20px gap */
+  margin: 1.25rem 0; /* 20px margin */
+}
+
+.ActivitiesItem {
+  flex: 1;
+  min-width: 300px; /* Minimum width to maintain layout */
+  padding: 1.25rem; /* 20px padding */
+  border: 1px solid #ccc;
+  border-radius: 0.3125rem; /* 5px border radius */
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin-bottom: 1.25rem; /* 20px margin */
+}
+
+.ActivitiesImage {
+  width: 100%;
+  border-radius: 0.3125rem; /* 5px border radius */
+}
+
+.ReadMore {
+  color: #007bff;
+  cursor: pointer;
+  display: block;
+  margin-top: 0.625rem; /* 10px margin */
+}
+
+.ReadLess {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 0.3125rem 0.625rem; /* 5px 10px padding */
+  border-radius: 0.3125rem; /* 5px border radius */
+  cursor: pointer;
+  align-self: center; /* Center button horizontally */
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 768px) {
+  .AboutUsContainer,
+  .OurVisionContainer {
+    flex-direction: column;
+    align-items: center; /* Center items on small screens */
+    margin: 1.25rem; /* 20px margin */
+  }
+
+  .AboutUsText,
+  .OurVisionText {
+    padding-right: 0;
+    text-align: center; /* Center text on small screens */
+    max-width: 100%;
+  }
+
+  .AboutUsImage,
+  .OurVisionImage {
+    margin-top: 1.25rem; /* 20px margin */
+    max-width: 90%; /* Ensure image fits well on smaller screens */
+  }
+
+  .LatestNewsContainer,
+  .ActivitiesContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .LatestNewsItem,
+  .ActivitiesItem {
+    width: 100%;
+    max-width: 400px; /* Ensure items fit well on smaller screens */
+  }
+}
+
+/* Testimonials Section */
+.Testimonials {
+  text-decoration: double;
+  gap: 80px;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  font-size: larger;
+}
+.TestimonialsImage {
+  margin-left: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.RealData {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem; /* 20px gap */
+  margin-bottom: 1.875rem; /* 30px margin */
+}
+
+.RealDataContainer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0f0f0; /* Light background color for the container */
+  padding: 1.25rem; /* 20px padding */
+  border-radius: 0.5rem; /* 8px border radius */
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 100%;
+  overflow: hidden; /* Ensure no overflow issues */
+}
+
+.RealDataItem {
+  flex: 1; /* Each item takes equal space */
+  background-color: #fff; /* White background for each item */
+  padding: 1rem; /* 16px padding */
+  border-radius: 0.5rem; /* 8px border radius */
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1); /* Subtle shadow for each item */
+  text-align: center; /* Center align contents */
+  margin-right: 0.625rem; /* 10px margin */
+}
+
+.RealDataItem:last-child {
+  margin-right: 0; /* Remove margin from the last item */
+}
+
+.RealDataItem h3 {
+  color: #333; /* Dark text color for headings */
+  font-size: 1.5rem; /* Larger font size for headings */
+  margin-bottom: 0.625rem; /* Space between heading and amount */
+}
+
+.RealDataItem p {
+  font-size: 1.2rem; /* Font size for amount */
+  color: #666; /* Slightly lighter text color */
+  margin-top: 0; /* Remove default margin for paragraphs */
+}
+
+/* Stats Container */
+.statsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 11.25rem; /* 180px gap */
+  color: rgb(222, 57, 11);
+  margin: 0.3125rem; /* 5px margin */
+  padding: 0.3125rem; /* 5px padding */
+  background-color: rgb(224, 225, 236);
+  margin-bottom: 80px;
+}

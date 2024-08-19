@@ -1,0 +1,71 @@
+.newsletter {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #e8c110;
+}
+
+.gradientBackground {
+  background-image: linear-gradient(to bottom, #4CAF50, #32CD32);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.newsletter h2 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+}
+
+.newsletter p {
+  margin-bottom: 40px;
+  font-size: 1.2rem;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+}
+
+.newsletter form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.newsletter input[type="email"] {
+  flex: 1;
+  padding: 15px;
+  border: 2px solid #0ea0c1;
+  border-radius: 5px 0 0 5px;
+  font-size: 1rem;
+  outline: none;
+  font-family: 'Arial', sans-serif;
+}
+
+.newsletter input[type="email"]::placeholder {
+  color: #999;
+}
+
+.newsletter button {
+  background-color: #9a0e0e;
+  color: #32CD32;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 0 5px 5px 0;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: 'Arial', sans-serif;
+}
+
+.newsletter button:hover {
+  background-color: #32CD32;
+  color: #b71010;
+}
+
+.disclaimer {
+  font-size: 0.9rem;
+  color: #d113ae;
+  font-family: 'Arial', sans-serif;
+}

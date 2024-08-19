@@ -1,0 +1,157 @@
+/* Donate.module.css */
+
+.donate {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #7ab04a, #f12711); /* Vibrant background gradient */
+  font-family: 'Montserrat', sans-serif; /* Modern font */
+  color: #2c0ab4c0; /* Text color */
+  text-align: center;
+  font-weight: 900;
+}
+
+.donate h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #c91773; /* Heading text color */
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 4px solid #ffffff; /* Heading underline */
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.donate p {
+  font-size: 1.3rem;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+.quote {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #ffe259; /* Quote text color */
+  margin-bottom: 40px;
+  padding: 20px;
+  border-left: 4px solid #ffe259;
+  background: rgba(255, 255, 255, 0.2); /* Transparent background */
+  display: inline-block;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.donationOptions {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.donationBox {
+  background: rgba(255, 255, 255, 0.1); /* Transparent background */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  backdrop-filter: blur(10px); /* Glassmorphism effect */
+}
+
+.donationBox:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(60, 143, 96, 0.3);
+}
+
+.donationBox h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ffe259; /* Heading text color */
+  margin-bottom: 20px;
+}
+
+.donationBox p {
+  font-size: 1.1rem;
+  color: #ffffff; /* Text color */
+  margin-bottom: 20px;
+}
+
+.donateButton {
+  background-color: #ffe259; /* Button background color */
+  color: #f12711; /* Button text color */
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-transform: uppercase; /* Uppercase text */
+}
+
+.donateButton:hover {
+  background-color: #19f528; /* Button hover background color */
+  transform: translateY(-3px);
+}
+
+.additionalInfo {
+  margin-top: 40px;
+  font-size: 1.2rem;
+  color: #ffffff; /* Text color */
+  text-align: left;
+  background: rgba(255, 255, 255, 0.1); /* Transparent background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.additionalInfo h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #0dc710; /* Heading text color */
+  margin-bottom: 20px;
+}
+
+.additionalInfo ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.additionalInfo li {
+  margin-bottom: 10px;
+}
+
+.contactInfo {
+  margin-top: 40px;
+  font-size: 1rem;
+  color: #b8cb25; /* Text color */
+}
+
+.contactInfo a {
+  color: #dedde7; /* Link color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contactInfo a:hover {
+  color: #150f02; /* Link hover color */
+}
+
+@media (max-width: 768px) {
+  .donate {
+    padding: 40px 10px;
+  }
+
+  .donationOptions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .donationBox {
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .additionalInfo {
+    margin-top: 30px;
+  }
+}
